@@ -1,0 +1,17 @@
+.NavBarContainer {
+   display: flex;
+   justify-content: space-around;
+   background-color:beige;
+}
+
+
+.NavBarContainer img {
+    height: 50px;
+    width: 50px;
+}
+
+.NavBarContainer a {
+   color: salmon;
+   font-weight: bold;
+   font-size: 30px;
+}
