@@ -7,7 +7,6 @@ class Berries extends React.Component {
   fetchBerries = async () => {
     try {
       const res = await axios.get("https://pokeapi.co/api/v2/berry/");
-      // debugger
       this.setState({ berryArray: res.data.results });
     } catch (error) {
       this.setState({ berryArray: [] });
